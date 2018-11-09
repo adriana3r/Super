@@ -12,11 +12,11 @@ public class Principal {
     
         public static void main(String[] args) {
           
-                Película p1 = new Película ();
+                Largometraje l1 = new Largometraje ();
         
-                System.out.println(p1.nombre);
-                System.out.println("Tiene " + p1.salas + " salas.");
-                System.out.println("Y una capacidad total de " + p1.butacas + " butacas.");
+                System.out.println(l1.nombre);
+                System.out.println("Tiene " + l1.salas + " salas.");
+                System.out.println("Y una capacidad total de " + l1.butacas + " butacas.");
      
     }
 }
