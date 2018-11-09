@@ -23,4 +23,7 @@ public class Cine {
                                 
                 System.out.println("Constructor de superclase");
         }
+        
+        public void ventaEntradas(){
+        }
 }
