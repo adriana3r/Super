@@ -8,19 +8,24 @@
  *
  * @author Usuario
  */
-public class Película extends Largometraje {
+public class Cine {
         
-        public String titulo;
+        public String nombre;
+        public int salas;
+        public int butacas;
         
         
-        public Película(){
+        public Cine(String nombre, int salas, int butacas){
                 
+                this.nombre = nombre;
+                this.salas = salas;
+                this.butacas = butacas;
                                 
-                System.out.println("Constructor de Película");
+                System.out.println("Constructor de superclase");
         }
         
-        public void eliminar(){
-            
+        public void ventaEntradas(){
         }
+        
 }
 
