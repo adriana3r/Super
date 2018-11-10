@@ -13,16 +13,13 @@ public class Largometraje extends Cine {
         public int duracion;
         
         public Largometraje(){
-                
                 super ("Cines del Paseo", 4, 687);
-                           
+                duracion = 127;
+                         
                 System.out.println("Constructor de Largometraje");
         }
         
                 
         public void seleccionar(){
-            
         }
-    
-    
-}
+ }
